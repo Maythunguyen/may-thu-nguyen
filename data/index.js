@@ -148,7 +148,7 @@ export const skills = [
         "This is a simple website that helps me to count my calories intake in a meal",
       imageUrl:
         "./cal-cal.webp",
-      linkHref: "https://calorie-counter-yaro.vercel.app/",
+      linkHref: "https://may-calories-counter.vercel.app",
       skills: [
         "Typescript",
         "Next.js",
