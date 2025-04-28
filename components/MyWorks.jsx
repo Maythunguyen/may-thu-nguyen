@@ -13,7 +13,7 @@ export function MyWorks() {
         <h2 className="bg-clip-text text-transparent bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-600 dark:to-white text-4xl md:text-5xl text-center py-2 md:py-10 relative z-20 font-bold tracking-tight">
             My selection of {" "}<span className="text-dark-orange">Recent Projects</span>
         </h2>
-        <div className="flex flex-wrap items-center justify-center p-4 gap-16">
+        <div className="flex flex-wrap items-center justify-center gap-10">
         {myWorks.map((item, idx) => (
         <CardContainer key={idx} className="inter-var">
           <CardBody className="bg-white relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">

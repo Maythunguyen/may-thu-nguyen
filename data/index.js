@@ -1,4 +1,4 @@
-import { IconBriefcase, IconMessage, IconUser, IconFolder } from "@tabler/icons-react";
+import { IconBriefcase, IconMessage, IconUser, IconFolder, IconMessageStar } from "@tabler/icons-react";
 import {
     IconBoxAlignRightFilled,
     IconTableColumn,
@@ -10,7 +10,7 @@ export const navItems = [
     { name: "About", link: "#about", icon: <IconUser className="h-4 w-4 text-neutral-500 dark:text-white" />, },
     { name: "Projects", link: "#projects" , icon: <IconFolder className="h-4 w-4 text-neutral-500 dark:text-white" />, },
     { name: "Experiences", link: "#experiences", icon: <IconBriefcase className="h-4 w-4 text-neutral-500 dark:text-white" />, },
-    { name: "Testimonials", link: "#testimonials", icon: <IconBriefcase className="h-4 w-4 text-neutral-500 dark:text-white" />, },
+    { name: "Testimonials", link: "#testimonials", icon: <IconMessageStar className="h-4 w-4 text-neutral-500 dark:text-white" />, },
     { name: "Contact", link: "#contact", icon: <IconMessage className="h-4 w-4 text-neutral-500 dark:text-white" />, },
 ];
 
@@ -104,7 +104,7 @@ export const skills = [
       linkHref: "https://may-day.vercel.app/",
       skills: [
         "Javascript",
-        "NextJS",
+        "Next.js",
         "TailwindCSS",
         "Python",
         "FastAPI",
@@ -120,20 +120,50 @@ export const skills = [
       linkHref: "https://www.brainwave-ai.click",
       skills: [
         "Javascript",
-        "NextJS",
+        "Next.js",
         "TailwindCSS",
         "Python",
         "FastAPI",
         "GenAI"
       ]
     },
-
+    {
+      title: "iPhone May",
+      description:
+        "Inspired by the idea from MasterJS for practicing 3D animation and 3D design",
+      imageUrl:
+        "./i-phone.webp",
+      linkHref: "https://i-phone-may.vercel.app/",
+      skills: [
+        "Javascript",
+        "React-Vite",
+        "TailwindCSS",
+        "Gsap",
+        "Three.js",
+      ]
+    },
+    {
+      title: "Calories Counter",
+      description:
+        "This is a simple website that helps me to count my calories intake in a meal",
+      imageUrl:
+        "./cal-cal.webp",
+      linkHref: "https://calorie-counter-yaro.vercel.app/",
+      skills: [
+        "Typescript",
+        "Next.js",
+        "TailwindCSS",
+        "Python",
+        "FastAPI",
+        "GenAI"
+      ]
+    },
   ];
 
   export const experiences = [
     {
       id: 1,
-      title: "Junior Full Stack Developer",
+      title: " Intern - Junior Full Stack Engineer",
       company: "CliniScribe",
       desc: "Worked on NDIS report project, including refining CliniScribe UI",
       thumbnail: "/exp1.svg",
@@ -158,7 +188,7 @@ export const skills = [
     },
     {
       quote:
-        "She's learning and growing every day. I can see her potential and I'm excited to see where she goes. I like her atitude and her work ethic.",
+        "May was an outstanding software engineering intern who consistently demonstrated proactivity, responsibility, and tenacity. Her strong work ethic and determination in solving complex technical challenges made her an invaluable team member.",
       name: "Barry Nguyen",
       designation: "CTO at CliniScribe",
       src: "/barry.webp",
@@ -166,9 +196,9 @@ export const skills = [
     
     {
       quote:
-        "Outstanding support and robust features. It's rare to find a product that delivers on all its promises.",
+        "I had the pleasure of working alongside May as a fellow Junior Software Engineer, and I can't speak highly enough of her professionalism, generosity, and technical skill.",
       name: "Andrew Phan",
-      designation: "Project Manager at CliniScribe",
+      designation: "Software Engineer at CliniScribe",
       src: "https://images.unsplash.com/photo-1636041293178-808a6762ab39?q=80&w=3464&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
