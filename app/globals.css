@@ -102,6 +102,7 @@
     --color-muted-green: #a3b18a;
     --color-sand: #fefae0;
     --color-dark-orange: #E76250;
+    --color-green-l: #ebf0ec;
 
     /* Infiity moving cards */
     --animate-scroll: scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite;
