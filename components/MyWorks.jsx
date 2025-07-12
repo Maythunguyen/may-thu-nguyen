@@ -5,6 +5,8 @@ import { myWorks } from "@/data";
 import { CardContainer, CardBody, CardItem } from "./ui/3d-card";
 import Link from "next/link";
 import Image from "next/image";
+import { Github } from "lucide-react";
+import { FaGithub } from "react-icons/fa";
 
 
 export function MyWorks() {
@@ -44,7 +46,8 @@ export function MyWorks() {
             </CardItem>
             
             <div className="flex flex-row justify-between mt-10">
-              <CardItem
+              <div className="flex flex-col w-[50%]">
+                <CardItem
                 translateZ={20}
                 as={Link}
                 href={item.linkHref}
@@ -53,6 +56,26 @@ export function MyWorks() {
               >
                 Visit Site →
               </CardItem>
+              <CardItem
+                translateZ={20}
+                as={Link}
+                href={item.gitHref}
+                target="__blank"
+                className="px-2 py-2 rounded-xl text-sm font-normal dark:text-white w-[50%]"
+              >
+                <FaGithub size={24} />
+              </CardItem>
+
+              </div>
+              {/* <CardItem
+                translateZ={20}
+                as={Link}
+                href={item.linkHref}
+                target="__blank"
+                className="px-2 py-2 rounded-xl text-sm font-normal dark:text-white w-[50%]"
+              >
+                Visit Site →
+              </CardItem> */}
               <CardItem
                 translateZ={20}
                 className="flex flex-row gap-2 flex-wrap md:w-[70%] sm:w-full lg:w-[70%]"

@@ -102,6 +102,7 @@ export const skills = [
       imageUrl:
         "./mayday.webp",
       linkHref: "https://may-day.vercel.app/",
+      gitHref: "https://github.com/Maythunguyen/may-day",
       skills: [
         "Javascript",
         "Next.js",
@@ -118,6 +119,7 @@ export const skills = [
       imageUrl:
         "./bw.webp",
       linkHref: "https://chat-with-brainwave.vercel.app",
+      gitHref: "https://github.com/Maythunguyen/chat-with-brainwave",
       skills: [
         "Javascript",
         "Next.js",
@@ -134,6 +136,7 @@ export const skills = [
       imageUrl:
         "./i-phone.webp",
       linkHref: "https://i-phone-may.vercel.app/",
+      gitHref: "https://github.com/Maythunguyen/iPhone-May",
       skills: [
         "Javascript",
         "React-Vite",
@@ -149,6 +152,7 @@ export const skills = [
       imageUrl:
         "./cal-cal.webp",
       linkHref: "https://may-calories-counter.vercel.app",
+      gitHref: "https://github.com/Maythunguyen/may-calories-counter",
       skills: [
         "Typescript",
         "Next.js",
@@ -165,10 +169,12 @@ export const skills = [
       imageUrl:
         "./contacts.webp",
       linkHref: "https://contact-lists-ten.vercel.app",
+      gitHref: "https://github.com/Maythunguyen/contact-lists",
       skills: [
         "Typescript",
         "Next.js",
         "TailwindCSS",
+        "JSONPlaceholder API",
       ]
     },
   ];
