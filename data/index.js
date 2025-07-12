@@ -158,6 +158,19 @@ export const skills = [
         "GenAI"
       ]
     },
+    {
+      title: "May Contact List",
+      description:
+        "A simple contact list website that helps to manage contacts",
+      imageUrl:
+        "./contacts.webp",
+      linkHref: "https://contact-lists-ten.vercel.app",
+      skills: [
+        "Typescript",
+        "Next.js",
+        "TailwindCSS",
+      ]
+    },
   ];
 
   export const experiences = [
