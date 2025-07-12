@@ -163,18 +163,26 @@ export const skills = [
   export const experiences = [
     {
       id: 1,
-      title: " Intern - Junior Full Stack Engineer",
-      company: "CliniScribe",
-      desc: "Worked on NDIS report project, including refining CliniScribe UI",
+      title: "Full Stack Engineer Intern",
+      company: "PitchUp",
+      desc: "Working on a core booking feature for sport venues booking. Enhanced the user experience by implementing feature flow and improving the UI.",
       thumbnail: "/exp1.svg",
-    
     },
     {
       id: 2,
+      title: " Intern - Junior Full Stack Engineer",
+      company: "CliniScribe",
+      desc: "Worked on NDIS report project, including refining CliniScribe UI",
+      thumbnail: "/exp2.svg",
+    
+    },
+    
+    {
+      id: 3,
       title: "Customer Support",
       company: "Teleperformance",
       desc: "Supported clients with API, pixel, and platform issues while building my technical skills and learning to communicate solutions clearly and simply.",
-      thumbnail: "/exp2.svg",
+      thumbnail: "/exp3.svg",
     },
   ];
 
