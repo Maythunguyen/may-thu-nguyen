@@ -117,7 +117,7 @@ export const skills = [
         "Inspired by the idea from MasterJS combining with AI chat",
       imageUrl:
         "./bw.webp",
-      linkHref: "https://www.brainwave-ai.click",
+      linkHref: "https://chat-with-brainwave.vercel.app",
       skills: [
         "Javascript",
         "Next.js",
