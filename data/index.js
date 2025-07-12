@@ -145,7 +145,7 @@ export const skills = [
     {
       title: "Calories Counter",
       description:
-        "This is a simple website that helps me to count my calories intake in a meal",
+        "This is a simple website that helps me to count my calories intake in a meal by uploading a photo of the meal",
       imageUrl:
         "./cal-cal.webp",
       linkHref: "https://may-calories-counter.vercel.app",
@@ -190,13 +190,6 @@ export const skills = [
     
     },
     
-    {
-      id: 3,
-      title: "Customer Support",
-      company: "Teleperformance",
-      desc: "Supported clients with API, pixel, and platform issues while building my technical skills and learning to communicate solutions clearly and simply.",
-      thumbnail: "/exp3.svg",
-    },
   ];
 
   export const testimonials = [
