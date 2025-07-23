@@ -109,7 +109,8 @@ export const skills = [
         "TailwindCSS",
         "Python",
         "FastAPI",
-        "GenAI"
+        "GenAI",
+        "MongoDB"
       ]
     },
     {
