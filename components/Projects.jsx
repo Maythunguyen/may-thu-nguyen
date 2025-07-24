@@ -15,7 +15,7 @@ export default function Projects() {
           Recent Projects
         </div>
       </h2>
-
+    <div className="relative z-10">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {myWorks.map((project, index) => (
           <Link
@@ -82,6 +82,7 @@ export default function Projects() {
           </Link>
         ))}
       </div>
+    </div>
     </section>
   );
 }
