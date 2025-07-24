@@ -1,48 +1,80 @@
 import React from "react";
 import { Button } from "./ui/MovingBorder";
 import { experiences } from "@/data";
+import Image from "next/image";
 
 const Experiences = () => {
-    return (
-      <div className="py-20 w-full px-10" id="experiences">
-        <h2 className="bg-clip-text text-transparent bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-600 dark:to-white text-4xl md:text-5xl text-center py-2 md:py-10 relative z-20 font-bold tracking-tight">
-            My <span className="text-dark-orange">Experiences</span>
-        </h2>
-  
-        <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
-          {experiences.map((card) => (
-            <Button
-              key={card.id}
-              //   random duration will be fun , I think , may be not
-              duration={Math.floor(Math.random() * 10000) + 10000}
-              borderRadius="1.75rem"
-              style={{
-                borderRadius: `calc(1.75rem* 0.96)`,
-              }}
-              // remove bg-white dark:bg-slate-900
-              className="flex-1 bg-white dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800"
-            >
-              <div className="flex lg:flex-row flex-col lg:items-center p-3 py-6 md:p-5 lg:p-10 gap-2">
-                <img
-                  src={card.thumbnail}
-                  alt={card.thumbnail}
-                  className="lg:w-32 md:w-20 w-16"
-                />
-                <div className="lg:ms-5">
-                  <h1 className="text-start text-xl md:text-2xl font-bold">
-                    {card.title}
-                  </h1>
-                  <p className="text-start text-neutral-400 mt-3 font-semibold">
-                    {card.desc}
-                  </p>
-                </div>
-              </div>
-            </Button>
-          ))}
+  return (
+    <div className="py-20 w-full px-4 sm:px-6 md:px-10" id="experiences">
+      <h2 className="font-helvetica bg-clip-text text-transparent bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-600 dark:to-white text-sm md:text-lg py-2 md:py-10 relative z-20 font-normal tracking-tight">
+        Some of,{" "}
+        <div className="text-dark-gray text-4xl md:text-5xl font-medium">
+          Experiences
         </div>
+      </h2>
+
+      <div className="overflow-x-auto">
+        <table className="w-full table-auto border-separate border-spacing-y-6">
+          <thead className="hidden md:table-header-group text-left text-xs text-gray-500">
+            <tr>
+              <th>Company</th>
+              <th>Position</th>
+              <th className="hidden md:table-cell">Awards</th>
+              <th className="hidden md:table-cell">Categories</th>
+              <th className="hidden md:table-cell"></th>
+            </tr>
+          </thead>
+          <tbody>
+            {experiences.map((exp) => (
+              <React.Fragment key={exp.id}>
+                <tr className="dark:bg-neutral-900 rounded-md">
+                  {/* Name & Logo */}
+                  <td className="flex items-center gap-3 py-4 px-2">
+                    <Image
+                      src={exp.thumbnail}
+                      alt={exp.name}
+                      width={40}
+                      height={40}
+                      className="rounded-full border"
+                    />
+                    <div className="font-semibold">{exp.name}</div>
+                  </td>
+
+                  {/* Profile */}
+                  <td className="text-md text-black-default px-2">{exp.role}</td>
+
+                  {/* Awards */}
+                  <td className="hidden md:table-cell text-md px-2">
+                    {exp.awards}
+                  </td>
+
+                  {/* Categories */}
+                  <td className="hidden md:table-cell text-md text-black-default px-2">
+                    {exp.categories.join(", ")}
+                  </td>
+
+                  {/* View Button */}
+                </tr>
+
+                {/* Dotted line row */}
+                <tr>
+                  <td colSpan={5}>
+                    <div
+                      className="w-full h-[1.5px] my-4"
+                      style={{
+                        backgroundImage: "repeating-linear-gradient(to right, black 0 1.5px, transparent 1.5px 12px)",
+                        backgroundRepeat: "repeat-x",
+                      }}
+                    ></div>
+                  </td>
+                </tr>
+              </React.Fragment>
+            ))}
+          </tbody>
+        </table>
       </div>
-    );
-  };
-  
-  export default Experiences;
-  
+    </div>
+  );
+};
+
+export default Experiences;

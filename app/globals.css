@@ -86,10 +86,16 @@
 
   @theme {
 
-    --color-black-default: #000;
+    --color-black-default: #222222;
     --color-black-100: #000319;
     --color-black-200: rgba(17, 25, 40, 0.75);
     --color-black-300: rgba(255, 255, 255, 0.125);
+
+    --color-gray-custom: #E9E9E9;
+    --color-dark-gray: #3e3e3e;
+    --color-dark-gray-lighter: #4e4e4e;
+    --color-text-black: #787878;
+    --color-hero-bg: #f4e6d9;
 
     --color-white-default: #FFF;
     --color-white-100: #BEC1DD;
@@ -232,6 +238,12 @@
   .text-purple {
     color: var(--color-purple);
   }
+
+  .font-helvetica {
+    font-family: "Helvetica Now Display", "Helvetica Neue", Helvetica, Arial,
+      sans-serif;
+  }
+
 
   /* 
     b) Animation classes

@@ -6,17 +6,17 @@ import { TextHoverEffect } from "./ui/TextHoverEffect";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36">
+    <div className="pt-20">
 
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-            <TextHoverEffect text="MAY"/>
-            <span className="text-5xl md:text-9xl font-extrabold bg-clip-text text-transparent bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-600 dark:to-white text-center mb-6 mt-[-20] tracking-tight">THU NGUYEN</span>
-
             <TextGenerateEffect 
-                words="Not just a developer. A curious mind, a kind heart."
-                className="text-center text-[16px] md:text-xl lg:text-2xl"
+                  words="Not just a developer. A curious mind, a kind heart."
+                  className="text-center text-[16px] md:text-xl lg:text-2xl"
             />
+            <span className="hero-title font-helvetica text-[clamp(2rem,10vw,10rem)] tracking-[-0.03em] leading-none md:text-9xl font-black uppercase  bg-gradient-to-b from-[#2b2b2b] to-[#1a1a1a] bg-clip-text text-transparent text-center mb-6 mt-6">Software Developer</span>
+
+            
             
             <a href="#about">
                 <MagicButton

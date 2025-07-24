@@ -6,19 +6,17 @@ import { Navbar } from "@/components/Navbar";
 import Experiences from "@/components/Experiences";
 import Footer from "@/components/Footer";
 import { About } from "@/components/About";
-import { MyWorks } from "@/components/MyWorks";
 import Testimonials from "@/components/Testimonials";
-
-
+import Projects from "@/components/Projects";
 
 const Home = () => {
   return (
-    <main className="relative flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
+    <main className="relative flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5 bg-gray-custom">
       <div className="max-w-7xl w-full">
         <Navbar />
         <Hero />
         <About />
-        <MyWorks />
+        <Projects />
         < Approaches/>
         <Experiences />
         <Testimonials />

@@ -7,15 +7,13 @@ const Footer = () => {
   return (
     <footer className="w-full pt-20 pb-10" id="contact">
 
-      <div className="flex flex-col items-center">
-      <h2 className="bg-clip-text text-transparent bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-600 dark:to-white text-4xl md:text-5xl text-center py-2 md:py-10 relative z-20 font-bold tracking-tight">
-            Let's work <span className="text-dark-orange">Together</span>
-        </h2>
+      <div className="flex flex-col items-center mb-15">
+      <span className="hero-title font-helvetica text-[clamp(2rem,10vw,10rem)] tracking-[-0.03em] leading-none md:text-9xl font-black uppercase  bg-gradient-to-b from-[#2b2b2b] to-[#1a1a1a] bg-clip-text text-transparent text-center mb-6 mt-6">Let's work together.</span>
         <p className="text-neutral-400 md:mt-10 my-5 text-center">
           Reach out to me today and let&apos;s discuss how I can help you
           achieve your goals.
         </p>
-        <a href="mailto:nguyentranminhthu.65@gmail.com">
+        <a href="mailto:nguyentranminhthu.65@gmail.com" >
           <MagicButton
             title="Let's get in touch"
             icon={<FaLocationArrow />}
@@ -23,14 +21,21 @@ const Footer = () => {
           />
         </a>
       </div>
-      <div className="flex mt-16 md:flex-row flex-col justify-between items-center gap-6">
+      <div
+        className="w-full h-[1.5px] my-4"
+        style={{
+          backgroundImage: "repeating-linear-gradient(to right, black 0 1.5px, transparent 1.5px 12px)",
+          backgroundRepeat: "repeat-x",
+        }}
+      ></div>
+      <div className="flex mt-10 md:flex-row flex-col justify-between items-center gap-6">
         <div>
             <p className="md:text-base text-sm md:font-normal font-light">
             Copyright © 2025 May Thu Nguyen
             </p>
         </div>
         
-        <div className="flex items-center md:gap-3 gap-6">
+        <div className="flex items-center md:gap-3 gap-6 cursor-pointer">
           {socialMedia.map((info) => (
             <a
             key={info.id}

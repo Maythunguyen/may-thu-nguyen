@@ -10,11 +10,12 @@ const Approaches = () => {
     }
   return (
     <section className="w-full py-20">
-        <h2 className="bg-clip-text text-transparent bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-600 dark:to-white text-4xl md:text-5xl text-center py-2 md:py-10 relative z-20 font-bold tracking-tight">
-            My <span className="text-dark-orange">Approaches</span>
+        <h2
+          className="font-helvetica bg-clip-text text-transparent bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-600 dark:to-white text-sm md:text-lg py-2 md:py-10 relative z-20 font-normal tracking-tight">
+          How to, <div className="text-dark-gray text-4xl md:text-5xl font-medium">Approach</div>
         </h2>
       <div
-        className="my-20 flex flex-col lg:flex-row items-center justify-center bg-white dark:bg-black w-full gap-4 mx-auto px-8">
+        className=" flex flex-col lg:flex-row items-center justify-center dark:bg-black w-full gap-4 mx-auto">
         <Card title="Planning & Strategy" icon={<AceternityIcon order="Phase 1"/>} onClick={handleClick}>
           <CanvasRevealEffect animationSpeed={5.1} containerClassName="bg-emerald-900 rounded-3xl overflow-hidden" />
           
@@ -94,18 +95,13 @@ const Card = ({
 const AceternityIcon = ({order}) => {
   return (
     <div>
-      {/* this btn is from https://ui.aceternity.com/components/tailwindcss-buttons border magic */}
-      {/* change rounded-lg, text-purple px-5 py-2 */}
-      {/* remove focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 cuz we don't need to focus */}
-      {/* remove text-sm font-medium h-12 , add font-bold text-2xl */}
-      <button className="relative inline-flex overflow-hidden rounded-full p-[1px] ">
+      <button className="relative inline-flex overflow-hidden rounded-full p-3 ">
         <span
-          className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite]
-         bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#E76250_50%,#E76250_100%)]"
+          className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite]"
         />
         <span
           className="inline-flex h-full w-full cursor-pointer items-center 
-        justify-center rounded-full bg-white px-5 py-2 text-black backdrop-blur-3xl font-bold text-2xl sm:text-2xl"
+        justify-center rounded-md border border-dark-gray px-5 py-5  text-black backdrop-blur-3xl font-medium text-xl sm:text-md"
         >
           {order}
         </span>

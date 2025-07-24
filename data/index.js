@@ -114,7 +114,7 @@ export const skills = [
       ]
     },
     {
-      title: "BrainWave Project",
+      title: "BrainWave",
       description:
         "Inspired by the idea from MasterJS combining with AI chat",
       imageUrl:
@@ -151,7 +151,7 @@ export const skills = [
       description:
         "This is a simple website that helps me to count my calories intake in a meal by uploading a photo of the meal",
       imageUrl:
-        "./cal-cal.webp",
+        "https://images.unsplash.com/photo-1651059452723-8b51fb72333e?q=80&w=1039&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       linkHref: "https://may-calories-counter.vercel.app",
       gitHref: "https://github.com/Maythunguyen/may-calories-counter",
       skills: [
@@ -180,24 +180,68 @@ export const skills = [
     },
   ];
 
+  // export const experiences = [
+  //   {
+  //     id: 1,
+  //     title: "Full Stack Engineer Intern",
+  //     company: "PitchUp",
+  //     desc: "Working on a core booking feature for sport venues booking. Enhanced the user experience by implementing feature flow and improving the UI.",
+  //     thumbnail: "/exp1.svg",
+  //   },
+  //   {
+  //     id: 2,
+  //     title: " Intern - Junior Full Stack Engineer",
+  //     company: "CliniScribe",
+  //     desc: "Worked on NDIS report project, including refining CliniScribe UI",
+  //     thumbnail: "/exp2.svg",
+    
+  //   },
+  //   {
+  //     id: 3,
+  //     title: " Customer Support",
+  //     company: "Teleperformance",
+  //     desc: "Provided customer support, resolving technical issues and ensuring customer satisfaction.",
+  //     thumbnail: "/exp2.svg",
+    
+  //   },
+    
+  // ];
   export const experiences = [
-    {
-      id: 1,
-      title: "Full Stack Engineer Intern",
-      company: "PitchUp",
-      desc: "Working on a core booking feature for sport venues booking. Enhanced the user experience by implementing feature flow and improving the UI.",
-      thumbnail: "/exp1.svg",
-    },
-    {
-      id: 2,
-      title: " Intern - Junior Full Stack Engineer",
-      company: "CliniScribe",
-      desc: "Worked on NDIS report project, including refining CliniScribe UI",
-      thumbnail: "/exp2.svg",
-    
-    },
-    
-  ];
+  {
+    id: 1,
+    title: "Full Stack Engineer Intern",
+    name: "PitchUp",
+    role: "Full Stack Engineer Intern",
+    awards: 2,
+    categories: ["Booking System", "UI/UX", "Full Stack"],
+    desc: "Working on a core booking feature for sport venues booking. Enhanced the user experience by implementing feature flow and improving the UI.",
+    thumbnail: "/exp1.svg",
+    link: "#",
+  },
+  {
+    id: 2,
+    title: "Intern - Junior Full Stack Engineer",
+    name: "CliniScribe",
+    role: "Junior Full Stack Intern",
+    awards: 2,
+    categories: ["NDIS Reports", "AI", "Frontend"],
+    desc: "Worked on NDIS report project, including refining CliniScribe UI",
+    thumbnail: "/exp2.svg",
+    link: "#",
+  },
+  {
+    id: 3,
+    title: "Customer Support",
+    name: "Teleperformance",
+    role: "Customer Support",
+    awards: 4,
+    categories: ["Customer Service", "Support"],
+    desc: "Provided customer support, resolving technical issues and ensuring customer satisfaction.",
+    thumbnail: "/exp2.svg",
+    link: "#",
+  },
+];
+                 
 
   export const testimonials = [
     {
