@@ -8,17 +8,24 @@ const Footer = () => {
     <footer className="w-full pt-20 pb-10" id="contact">
 
       <div className="flex flex-col items-center mb-15">
-      <span className="hero-title font-helvetica text-[clamp(2rem,10vw,10rem)] tracking-[-0.03em] leading-none md:text-9xl font-black uppercase  bg-gradient-to-b from-[#2b2b2b] to-[#1a1a1a] bg-clip-text text-transparent text-center mb-6 mt-6">Let's work together.</span>
+        <span className="hero-title font-helvetica text-[clamp(2rem,10vw,10rem)] tracking-[-0.03em] leading-none md:text-9xl font-black uppercase  bg-gradient-to-b from-[#2b2b2b] to-[#1a1a1a] bg-clip-text text-transparent text-center mb-6 mt-6">Let's work together.</span>
         <p className="text-neutral-400 md:mt-10 my-5 text-center">
           Reach out to me today and let&apos;s discuss how I can help you
           achieve your goals.
         </p>
         <a href="mailto:nguyentranminhthu.65@gmail.com" >
-          <MagicButton
-            title="Let's get in touch"
-            icon={<FaLocationArrow />}
-            position="right"
-          />
+          <button className="button-57">
+              <div className="flex items-center gap-2">
+                <p>Let's get in touch</p>
+                <FaLocationArrow />
+              </div>
+              <span>
+                <div className="flex items-center gap-2">
+                  <p className="w-[80%]">Let's get in touch</p>
+                  <FaLocationArrow />
+                </div>
+              </span>
+          </button>
         </a>
       </div>
       <div

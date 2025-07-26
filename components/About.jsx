@@ -19,12 +19,18 @@ export function About() {
     </div>
     <div className="flex flex-col lg:flex-row justify-between gap-6 max-w-full mx-auto w-full">
 
-      <div className="max-w-7xl mx-auto flex flex-col gap-8 bg-hero-bg p-6 md:p-10 rounded-md w-full lg:w-3/4">
+      <div className="max-w-7xl mx-auto flex flex-col gap-8 bg-hero-bg p-6 md:p-10 rounded-md w-full lg:w-3/4 shadow-lg">
         <div className="flex flex-row items-center justify-between">
           <div>
             <div className="px-2 py-2 bg-black rounded-lg text-white font-bold text-sm">eM</div>
           </div>
-          <h2 className="font-normal text-xl">May Thu Nguyen</h2>
+          <div className="flex flex-row gap-2">
+            <div className="relative w-6 h-6 flex items-center justify-center">
+                <span className="absolute w-full h-full rounded-full bg-gray-500 opacity-50 animate-zoomPulse duration-[4000ms]" />
+                <span className="relative w-3.5 h-3.5 bg-black rounded-full z-10" />
+            </div>
+            <h2 className="font-medium text-md uppercase">May Thu Nguyen</h2>
+          </div>
 
         </div>
         <div>
@@ -40,9 +46,10 @@ export function About() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, ease: "easeOut" }}
             viewport={{ once: true }}
-            className="font-medium text-3xl md:text-4xl lg:text-5xl text-balance md:w-1/2"
+            className="font-medium text-base md:text-xl lg:text-3xl leading-[1.2] md:leading-[1.2] text-balance text-dark-gray md:w-1/2"
           >
-            LIFE MOST EXPERIENCED MOMENTS
+            
+            CURRENT LIFE'S MOST EXPERIENCED MOMENTS
           </motion.h1>
 
           <motion.p

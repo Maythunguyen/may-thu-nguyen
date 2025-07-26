@@ -1,4 +1,12 @@
 import "./globals.css"; 
+import { IBM_Plex_Mono } from "next/font/google";
+
+const ibmPlexMono = IBM_Plex_Mono({
+  weight: ["400", "500", "700"],
+  subsets: ["latin"],
+  display: "swap",
+});
+
 export const metadata = {
   title: "May Thu Nguyen",
   description: "Built with Aspiration, Passion, and Love",

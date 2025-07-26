@@ -38,9 +38,11 @@ export const FloatingNav = ({
         transition={{ duration: 0.3 }}
         className={cn("fixed top-10 inset-x-0 z-[5000] flex justify-center", className)}
       >
-        <div className="flex items-center justify-between w-full sm:w-fit gap-2 max-w-[95%] bg-dark-gray-lighter/90 opacity-90 rounded-lg px-2 py-2 backdrop-blur-md border">
+        <div className="flex items-center justify-between w-full sm:w-fit gap-2 max-w-[95%] bg-dark-gray-lighter/90 opacity-90 rounded-lg px-2 py-2 backdrop-blur-md">
           {/* Logo */}
-          <div className="px-5 py-5 bg-black rounded-lg text-white font-bold text-xl">eM</div>
+          <a href="#home">
+            <div className="px-5 py-5 bg-black rounded-lg text-white font-bold text-xl">eM</div>
+          </a>
 
           {/* Desktop Nav Items */}
           <div className="hidden md:flex items-center gap-1 bg-dark-gray/90 px-2 py-2 rounded-lg">

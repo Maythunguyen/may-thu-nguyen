@@ -73,24 +73,45 @@ export const skills = [
     },
     {
       id: 5,
+      name: "NodeJS",
+      designation: "Backend Development",
+      image:
+        "https://images-cdn.openxcell.com/wp-content/uploads/2024/07/25090553/nodejs-inner.webp",
+    },
+    {
+      id: 6,
       name: "Python",
       designation: "Backend Development",
       image:
         "https://cdn-icons-png.flaticon.com/512/5968/5968286.png",
     },
     {
-      id: 6,
+      id: 7,
       name: "GenAI",
       designation: "AI Solutions",
       image:
         "https://img.freepik.com/premium-vector/artificial-intelligence-vector-illustration_1237743-49257.jpg",
     },
     {
-      id: 7,
+      id: 8,
       name: "Ruby on Rails",
       designation: "Full Stack Development",
       image:
         "https://yt3.googleusercontent.com/VMZrABCrgw9tAvF-JF2bIyu8EFAA7TH7MrsPAOmU36UxuS55TNIEky4955y5kA9OJPf_QcO5xw=s900-c-k-c0x00ffffff-no-rj",
+    },
+    {
+      id: 9,
+      name: "Supabase",
+      designation: "Database Management",
+      image:
+        "https://miro.medium.com/v2/resize:fit:1400/0*QzPzYLTNRX7p5Rsl",
+    },
+    {
+      id: 10,
+      name: "MongoDB",
+      designation: "NoSQL Database Management",
+      image:
+        "https://d2lgmzy8vjj79z.cloudfront.net/mongodb.svg",
     },
   
   ];
@@ -180,32 +201,6 @@ export const skills = [
     },
   ];
 
-  // export const experiences = [
-  //   {
-  //     id: 1,
-  //     title: "Full Stack Engineer Intern",
-  //     company: "PitchUp",
-  //     desc: "Working on a core booking feature for sport venues booking. Enhanced the user experience by implementing feature flow and improving the UI.",
-  //     thumbnail: "/exp1.svg",
-  //   },
-  //   {
-  //     id: 2,
-  //     title: " Intern - Junior Full Stack Engineer",
-  //     company: "CliniScribe",
-  //     desc: "Worked on NDIS report project, including refining CliniScribe UI",
-  //     thumbnail: "/exp2.svg",
-    
-  //   },
-  //   {
-  //     id: 3,
-  //     title: " Customer Support",
-  //     company: "Teleperformance",
-  //     desc: "Provided customer support, resolving technical issues and ensuring customer satisfaction.",
-  //     thumbnail: "/exp2.svg",
-    
-  //   },
-    
-  // ];
   export const experiences = [
   {
     id: 1,

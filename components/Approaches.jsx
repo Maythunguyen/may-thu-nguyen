@@ -17,13 +17,13 @@ const Approaches = () => {
       <div
         className=" flex flex-col lg:flex-row items-center justify-center dark:bg-black w-full gap-4 mx-auto">
         <Card title="Planning & Strategy" icon={<AceternityIcon order="Phase 1"/>} onClick={handleClick}>
-          <CanvasRevealEffect animationSpeed={5.1} containerClassName="bg-emerald-900 rounded-3xl overflow-hidden" />
+          <CanvasRevealEffect animationSpeed={5.1} containerClassName="bg-dark-gray rounded-lg overflow-hidden" />
           
         </Card>
         <Card title="Development & Progress Update" icon={<AceternityIcon order="Phase 2"/>} onClick={handleClick}>
           <CanvasRevealEffect
             animationSpeed={3}
-            containerClassName="bg-black rounded-3xl overflow-hidden"
+            containerClassName="bg-black rounded-lg overflow-hidden"
             colors={[
               [236, 72, 153],
               [232, 121, 249],
@@ -36,7 +36,7 @@ const Approaches = () => {
         <Card title="Development & Deploy" icon={<AceternityIcon order="Phase 3" />} onClick={handleClick}>
           <CanvasRevealEffect
             animationSpeed={3}
-            containerClassName="bg-sky-600 rounded-3xl overflow-hidden"
+            containerClassName="bg-black rounded-lg overflow-hidden"
             colors={[[125, 211, 252]]} />
         </Card>
       </div>
@@ -101,7 +101,7 @@ const AceternityIcon = ({order}) => {
         />
         <span
           className="inline-flex h-full w-full cursor-pointer items-center 
-        justify-center rounded-md border border-dark-gray px-5 py-5  text-black backdrop-blur-3xl font-medium text-xl sm:text-md"
+        justify-center rounded-md border border-dark-gray px-5 py-5  text-white bg-black-default backdrop-blur-3xl font-medium text-xl sm:text-md"
         >
           {order}
         </span>

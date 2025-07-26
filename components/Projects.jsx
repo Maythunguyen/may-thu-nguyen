@@ -40,7 +40,7 @@ export default function Projects() {
             <div className="absolute inset-0 bg-black/40 z-10 group-hover:bg-black/60 transition-all" />
 
             {/* Description on hover */}
-            <div className="absolute inset-0 z-30 opacity-0 group-hover:opacity-100 p-20 md:p-30 transition-opacity duration-300 flex items-center justify-center text-white uppercase font-mono text-sm text-center">
+            <div className="absolute inset-0 z-30 opacity-0 group-hover:opacity-100 p-20 md:p-30 transition-opacity duration-300 flex items-center justify-center text-white font-ibmplex uppercase text-sm text-center">
               {project.description}
             </div>
 
@@ -50,7 +50,7 @@ export default function Projects() {
                 {project.skills.slice(0, 10).map((skill, i) => (
                   <span
                     key={i}
-                    className="bg-dark-gray/90 opacity-80 text-white text-[10px] sm:text-xs md:text-sm px-2 py-[3px] rounded-full uppercase font-mono"
+                    className="bg-dark-gray/90 opacity-80 text-white text-[10px] sm:text-xs md:text-sm px-2 py-[3px] rounded-full font-ibmplex uppercase"
                   >
                     {skill}
                   </span>
@@ -67,7 +67,7 @@ export default function Projects() {
             </div>
 
             {/* Bottom-left: title */}
-            <div className="absolute bottom-6 left-4 z-40 text-white text-2xl sm:text-3xl md:text-4xl font-medium">
+            <div className="absolute bottom-6 left-4 z-40 text-white text-3xl sm:text-4xl md:text-5xl font-medium">
               {project.title}
             </div>
 

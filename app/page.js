@@ -5,9 +5,9 @@ import Approaches from "@/components/Approaches";
 import { Navbar } from "@/components/Navbar";
 import Experiences from "@/components/Experiences";
 import Footer from "@/components/Footer";
-import { About } from "@/components/About";
 import Testimonials from "@/components/Testimonials";
 import Projects from "@/components/Projects";
+import AboutSection from "@/components/AboutMe";
 
 const Home = () => {
   return (
@@ -15,7 +15,7 @@ const Home = () => {
       <div className="max-w-7xl w-full">
         <Navbar />
         <Hero />
-        <About />
+        <AboutSection />
         <Projects />
         < Approaches/>
         <Experiences />
