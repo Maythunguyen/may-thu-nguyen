@@ -131,7 +131,8 @@ export const skills = [
         "Python",
         "FastAPI",
         "GenAI",
-        "MongoDB"
+        "MongoDB",
+        "Sentry",
       ]
     },
     {
@@ -211,7 +212,7 @@ export const skills = [
     categories: ["Booking System", "UI/UX", "Full Stack"],
     desc: "Working on a core booking feature for sport venues booking. Enhanced the user experience by implementing feature flow and improving the UI.",
     thumbnail: "/exp1.svg",
-    link: "#",
+    link: "/May Nguyen - Software Developer - url.pdf",
   },
   {
     id: 2,
@@ -222,7 +223,7 @@ export const skills = [
     categories: ["NDIS Reports", "AI", "Frontend"],
     desc: "Worked on NDIS report project, including refining CliniScribe UI",
     thumbnail: "/exp2.svg",
-    link: "#",
+    link: "/May Nguyen - Software Developer - url.pdf",
   },
   {
     id: 3,
@@ -232,8 +233,8 @@ export const skills = [
     awards: 4,
     categories: ["Customer Service", "Support"],
     desc: "Provided customer support, resolving technical issues and ensuring customer satisfaction.",
-    thumbnail: "/exp2.svg",
-    link: "#",
+    thumbnail: "/exp3.svg",
+    link: "/May Nguyen - Software Developer - url.pdf",
   },
 ];
                  

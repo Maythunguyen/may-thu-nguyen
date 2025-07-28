@@ -17,8 +17,7 @@ const Approaches = () => {
       <div
         className=" flex flex-col lg:flex-row items-center justify-center dark:bg-black w-full gap-4 mx-auto">
         <Card title="Planning & Strategy" icon={<AceternityIcon order="Phase 1"/>} onClick={handleClick}>
-          <CanvasRevealEffect animationSpeed={5.1} containerClassName="bg-dark-gray rounded-lg overflow-hidden" />
-          
+          <CanvasRevealEffect animationSpeed={5.1} containerClassName="bg-emerald-900 rounded-lg overflow-hidden" />
         </Card>
         <Card title="Development & Progress Update" icon={<AceternityIcon order="Phase 2"/>} onClick={handleClick}>
           <CanvasRevealEffect

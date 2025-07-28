@@ -54,6 +54,15 @@ const Experiences = () => {
                   </td>
 
                   {/* View Button */}
+                  <td className="hidden md:table-cell px-2">
+                    <a
+                      href={exp.link}
+                      target="_blank"
+                      className="text-xs font-medium text-dark-gray border border-gray-500 hover:border-gray-300 transition-colors duration-200 outline-none rounded-sm px-4 py-2"
+                    >
+                      View
+                    </a>
+                  </td>
                 </tr>
 
                 {/* Dotted line row */}
