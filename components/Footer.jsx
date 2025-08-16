@@ -5,8 +5,7 @@ import MagicButton from "./ui/MagicButton";
 
 const Footer = () => {
   return (
-    <footer className="w-full pt-20 pb-10" id="contact">
-
+    <footer className="w-full pt-20 pb-10 scroll-mt-32" id="contact">
       <div className="flex flex-col items-center mb-15">
         <span className="hero-title font-helvetica text-[clamp(2rem,10vw,10rem)] tracking-[-0.03em] leading-none md:text-9xl font-black uppercase  bg-gradient-to-b from-[#2b2b2b] to-[#1a1a1a] bg-clip-text text-transparent text-center mb-6 mt-6">Let's work together.</span>
         <p className="text-neutral-400 md:mt-10 my-5 text-center">

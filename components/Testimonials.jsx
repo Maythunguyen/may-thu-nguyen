@@ -4,7 +4,7 @@ import { testimonials } from '@/data'
 
 const Testimonials = () => {
   return (
-    <section className='mb-28 flex flex-col bg-black-default rounded-md p-6 md:p-10' id="testimonials">
+    <section className='mb-28 flex flex-col bg-black-default rounded-md p-6 md:p-10 scroll-mt-32' id="testimonials">
         <div>
           <h2 className="font-helvetica bg-clip-text text-transparent bg-gradient-to-b from-neutral-400 to-white dark:to-white text-sm md:text-lg py-2 md:py-10 relative z-20 font-normal tracking-tight">
           What my,{" "}

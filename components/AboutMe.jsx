@@ -5,7 +5,7 @@ import { Skills } from "./SkillToolTip";
 
 const AboutSection = () => {
   return (
-    <section id="about" className="w-full min-h-fit py-20 bg-black text-neutral-200 rounded-lg">
+    <section id="about" className="relative overflow-hidden w-full min-h-fit py-20 bg-black text-neutral-200 rounded-lg scroll-mt-32">
         <Noise />
       <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
         {/* Left: Profile image */}

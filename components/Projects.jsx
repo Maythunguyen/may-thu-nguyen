@@ -8,7 +8,7 @@ import { FaGithub } from "react-icons/fa";
 
 export default function Projects() {
   return (
-    <section className="py-20" id="projects">
+    <section className="py-20 scroll-mt-32" id="projects">
       <h2 className="font-helvetica bg-clip-text text-transparent bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-600 dark:to-white text-sm md:text-lg py-2 md:py-10 relative z-20 font-normal tracking-tight">
         Selection of,{" "}
         <div className="text-dark-gray text-4xl md:text-5xl font-medium">

@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 
 export function About() {
   return (
-    <section className="w-full py-20" id="about">
+    <section className="w-full py-20 scroll-mt-32" id="about">
     <div>
       <h2
         className="font-helvetica bg-clip-text text-transparent bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-600 dark:to-white text-sm md:text-lg py-2 md:py-10 relative z-20 font-normal tracking-tight">

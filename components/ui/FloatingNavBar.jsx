@@ -40,9 +40,9 @@ export const FloatingNav = ({
       >
         <div className="flex items-center justify-between w-full sm:w-fit gap-2 max-w-[95%] bg-dark-gray-lighter/90 opacity-90 rounded-lg px-2 py-2 backdrop-blur-md">
           {/* Logo */}
-          <a href="#home">
-            <div className="px-5 py-5 bg-black rounded-lg text-white font-bold text-xl">eM</div>
-          </a>
+          <Link href="/#home" className="px-5 py-5 bg-black rounded-lg text-white font-bold text-xl">
+            eM
+          </Link> 
 
           {/* Desktop Nav Items */}
           <div className="hidden md:flex items-center gap-1 bg-dark-gray/90 px-2 py-2 rounded-lg">
