@@ -206,7 +206,7 @@ export const skills = [
   {
     id: 1,
     title: "Full Stack Engineer Intern",
-    name: "PitchUp",
+    name: "Early-stage startup",
     role: "Full Stack Engineer Intern",
     awards: 2,
     categories: ["Booking System", "UI/UX", "Full Stack"],
