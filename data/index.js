@@ -200,22 +200,50 @@ export const skills = [
         "JSONPlaceholder API",
       ]
     },
+     {
+      title: "Stroke Prediction System - AI/ML",
+      description:
+        "Built and compared two feed-forward neural networks (TensorFlow/Keras) to predict stroke risk, achieving ROC AUC 0.81 through feature analysis, class imbalance handling, and recall-focused evaluation",
+      imageUrl:
+        "./stroke-prediction.webp",
+      linkHref: "https://github.com/Maythunguyen/stroke-prediction-ml",
+      gitHref: "https://github.com/Maythunguyen/stroke-prediction-ml",
+      skills: [
+        "TensorFlow",
+        "Keras",
+        "Scikit-learn",
+        "Pandas",
+      ]
+    },
+    
   ];
 
   export const experiences = [
+
   {
     id: 1,
+    title: "Full Stack - AI Engineer - Freelance",
+    name: "PitchUp",
+    role: "Full Stack - AI Engineer - Freelance",
+    awards: 2,
+    categories: ["Booking System", "AI Agentic workflow", "Full Stack"],
+    desc: "Working on a core booking feature for sport venues booking. Enhanced the user experience by implementing feature flow and improving the UI.",
+    thumbnail: "/exp1.svg",
+    link: "/Software Engineer - May Thu Nguyen.pdf",
+  },
+  {
+    id: 2,
     title: "Full Stack Engineer Intern",
-    name: "Early-stage startup",
+    name: "PitchUp",
     role: "Full Stack Engineer Intern",
     awards: 2,
     categories: ["Booking System", "UI/UX", "Full Stack"],
     desc: "Working on a core booking feature for sport venues booking. Enhanced the user experience by implementing feature flow and improving the UI.",
-    thumbnail: "/exp1.svg",
-    link: "/May Nguyen - Software Developer - url.pdf",
+    thumbnail: "/exp3.svg",
+    link: "/Software Engineer - May Thu Nguyen.pdf",
   },
   {
-    id: 2,
+    id: 3,
     title: "Intern - Junior Full Stack Engineer",
     name: "CliniScribe",
     role: "Junior Full Stack Intern",
@@ -223,19 +251,9 @@ export const skills = [
     categories: ["NDIS Reports", "AI", "Frontend"],
     desc: "Worked on NDIS report project, including refining CliniScribe UI",
     thumbnail: "/exp2.svg",
-    link: "/May Nguyen - Software Developer - url.pdf",
+    link: "/Software Engineer - May Thu Nguyen.pdf",
   },
-  {
-    id: 3,
-    title: "Customer Support",
-    name: "Teleperformance",
-    role: "Customer Support",
-    awards: 4,
-    categories: ["Customer Service", "Support"],
-    desc: "Provided customer support, resolving technical issues and ensuring customer satisfaction.",
-    thumbnail: "/exp3.svg",
-    link: "/May Nguyen - Software Developer - url.pdf",
-  },
+
 ];
                  
 
@@ -260,15 +278,9 @@ export const skills = [
         "I had the pleasure of working alongside May as a fellow Junior Software Engineer, and I can't speak highly enough of her professionalism, generosity, and technical skill.",
       name: "Andrew Phan",
       designation: "Software Engineer at CliniScribe",
-      src: "https://images.unsplash.com/photo-1636041293178-808a6762ab39?q=80&w=3464&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      src: "/andrew.webp",
     },
-    {
-      quote:
-        "All I want to say is that she is amazing",
-      name: "Mariam G.",
-      designation: "Manager at L8",
-      src: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    },
+
   ];
 
 export const socialMedia = [
