@@ -222,6 +222,17 @@ export const skills = [
 
   {
     id: 1,
+    title: "Software Developer Intern",
+    name: "Hyperlocalise",
+    role: "Full Stack Developer Intern",
+    awards: 2,
+    categories: ["Localisation", "AI Agentic workflow", "i18n"],
+    desc: "Working on frontend development during the fundraising phase, within a clean, well-structured production codebase with strong typing and automated code review.",
+    thumbnail: "/exp4.svg",
+    link: "/Software Developer - May Thu Nguyen.pdf",
+  },
+  {
+    id: 2,
     title: "Full Stack - AI Engineer - Freelance",
     name: "PitchUp",
     role: "Full Stack - AI Engineer - Freelance",
@@ -229,10 +240,10 @@ export const skills = [
     categories: ["Booking System", "AI Agentic workflow", "Full Stack"],
     desc: "Working on a core booking feature for sport venues booking. Enhanced the user experience by implementing feature flow and improving the UI.",
     thumbnail: "/exp1.svg",
-    link: "/Software Engineer - May Thu Nguyen.pdf",
+    link: "/Software Developer - May Thu Nguyen.pdf",
   },
   {
-    id: 2,
+    id: 3,
     title: "Full Stack Engineer Intern",
     name: "PitchUp",
     role: "Full Stack Engineer Intern",
@@ -240,10 +251,10 @@ export const skills = [
     categories: ["Booking System", "UI/UX", "Full Stack"],
     desc: "Working on a core booking feature for sport venues booking. Enhanced the user experience by implementing feature flow and improving the UI.",
     thumbnail: "/exp3.svg",
-    link: "/Software Engineer - May Thu Nguyen.pdf",
+    link: "/Software Developer - May Thu Nguyen.pdf",
   },
   {
-    id: 3,
+    id: 4,
     title: "Intern - Junior Full Stack Engineer",
     name: "CliniScribe",
     role: "Junior Full Stack Intern",
@@ -251,7 +262,7 @@ export const skills = [
     categories: ["NDIS Reports", "AI", "Frontend"],
     desc: "Worked on NDIS report project, including refining CliniScribe UI",
     thumbnail: "/exp2.svg",
-    link: "/Software Engineer - May Thu Nguyen.pdf",
+    link: "/Software Developer - May Thu Nguyen.pdf",
   },
 
 ];

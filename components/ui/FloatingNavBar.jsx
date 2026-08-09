@@ -45,7 +45,7 @@ export const FloatingNav = ({
           </Link> 
 
           {/* Desktop Nav Items */}
-          <div className="hidden md:flex items-center gap-1 bg-dark-gray/90 px-2 py-2 rounded-lg">
+          <div className="hidden md:flex sm:flex items-center gap-1 bg-dark-gray/90 px-2 py-2 rounded-lg">
             {navItems.slice(0, -1).map((item, i) => (
               <Link
                 href={item.link}
